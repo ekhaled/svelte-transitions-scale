@@ -1,5 +1,9 @@
 # svelte-transitions-scale
 
+Scale transition plugin for [Svelte](https://svelte.technology).
+
+![scale](https://user-images.githubusercontent.com/198751/32108892-f5cfd68a-bb2a-11e7-9c34-8a8823b30092.gif)
+
 ## Usage
 
 Recommended usage is via [svelte-transitions](https://github.com/ekhaled/svelte-transitions), but you can use this module directly if you prefer. Note that it assumes an ES module or CommonJS environment.
