@@ -1,5 +1,5 @@
 .DS_Store
 node_modules
-index.js
+#index.js
 !src/index.js
-module.js
+#module.js
