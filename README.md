@@ -41,7 +41,7 @@ Then add the plugin to your Svelte component's exported definition:
 `from` and `to` are the start and end scaling factors the node will scale in from (and out to). `from` defaults to `0.5` and `to` defaults to `1`:
 
 ```html
-<div in:fly='{from: 0.3}'>
+<div in:scale='{from: 0.3}'>
   scales up from 0.3
 </div>
 ```
@@ -53,7 +53,7 @@ There is also support for elements that are already scaled. Just specify the `to
 You can also specify `delay` and `duration` parameters, which default to `0` and `400` respectively, and a custom `easing` function (which should live on your `helpers`):
 
 ```html
-<div in:fade='{duration: 1000, easing: quintInOut}'>
+<div in:scale='{duration: 1000, easing: quintInOut}'>
   scales up slowly
 </div>
 
