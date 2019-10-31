@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/ekhaled/svelte-transitions-scale#readme",
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-import": "^2.2.0",
     "rollup": "^0.41.6",
     "rollup-plugin-buble": "^0.15.0"
